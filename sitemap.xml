@@ -76,6 +76,21 @@
         <xhtml:link rel="alternate" hreflang="nl" href="https://momofinancestracker.com/nl/support.html" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://momofinancestracker.com/support.html" />
     </url>
+
+    <!-- Account deletion (required by Google Play Data Safety) -->
+    <url>
+        <loc>https://momofinancestracker.com/delete-account.html</loc>
+        <lastmod>2026-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://momofinancestracker.com/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://momofinancestracker.com/de/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://momofinancestracker.com/es/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://momofinancestracker.com/fr/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://momofinancestracker.com/it/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://momofinancestracker.com/nl/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://momofinancestracker.com/delete-account.html" />
+    </url>
     <url><loc>https://momofinancestracker.com/de/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
     <url><loc>https://momofinancestracker.com/es/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
     <url><loc>https://momofinancestracker.com/fr/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
