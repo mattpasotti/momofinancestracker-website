@@ -67,9 +67,10 @@
 <main id="main" class="legal">
     <div class="container legal-wrap">
         <h1>Datenschutzrichtlinie</h1>
-        <p class="updated">Zuletzt aktualisiert: 15. August 2026</p>
+        <p class="updated">Zuletzt aktualisiert: 28. August 2026</p>
 
-        <p>Momo Finances Tracker ist eine App für persönliche Finanzen, die rund um den Datenschutz konzipiert ist. Deine Finanzdaten bleiben auf deinem Gerät: Wir betreiben keine Server, die deine Transaktionen, Salden oder Notizen speichern oder verarbeiten. Die App verwendet keine Analyse- oder Absturzbericht-Dienste von Drittanbietern und verfolgt dich nicht. Der einzige beteiligte Drittanbieter ist unser Abo-Anbieter RevenueCat, der ausschließlich begrenzte, anonyme Daten verarbeitet, um Plus-Abonnements zu überprüfen (unten beschrieben).</p>
+        <p>Momo Finances Tracker ist eine Finanz-App, die um deine Privatsphäre herum gebaut ist. Deine Finanzdaten liegen auf deinem Gerät und – solange die Cloud-Synchronisierung eingeschaltet ist – zusätzlich als Kopie in deinem Konto, damit sie einen Geräteverlust überstehen und auf deine anderen Geräte gelangen. Du kannst die Cloud-Synchronisierung jederzeit unter <strong>Einstellungen → Cloud-Synchronisierung</strong> ausschalten.</p>
+        <p>Die App nutzt keinerlei Analyse- oder Absturzberichtsdienste Dritter und verfolgt dich nicht. Wir verkaufen deine Daten nicht, geben sie nicht an Werbetreibende weiter und erstellen damit kein Profil von dir.</p>
 
         <h2>Welche Informationen wir erheben</h2>
 
@@ -78,12 +79,17 @@
         <p>Passwörter werden von unserem Authentifizierungsanbieter ausschließlich als gesalzener Hash gespeichert; wir sehen und speichern dein Passwort nie. Die Authentifizierung erfolgt über <strong>Supabase</strong>, Bestätigungs- und Passwort-Reset-E-Mails werden über <strong>Resend</strong> zugestellt. Siehe den Abschnitt „Dienste von Drittanbietern“ weiter unten.</p>
         <p>Rechtsgrundlage ist die Erfüllung des Vertrags zwischen dir und uns — ohne Konto kann die App nicht bereitgestellt werden. Wir nutzen deine Adresse zur Anmeldung und für transaktionsbezogene E-Mails zu deinem Konto. Wir versenden keine Marketing-E-Mails.</p>
         <p><strong>Dein Konto enthält keine Finanzdaten.</strong> Es enthält nur Zugangsdaten; deine Transaktionen, Salden und Notizen verlassen dein Gerät nie.</p>
+        <h3>Deine Finanzdaten</h3>
+        <p>Deine Daten liegen auf deinem Gerät. Bei eingeschalteter <strong>Cloud-Synchronisierung</strong> werden sie zusätzlich in dein Konto hochgeladen, damit sie wiederhergestellt und über deine Geräte hinweg aktuell gehalten werden können. Dazu gehören Transaktionen samt Notizen, Konten und Salden, Kategorien, Labels, Budgets, Ziele, wiederkehrende Zahlungen und Kredite.</p>
+        <p>Sie werden in einem Datensatz gespeichert, der an dein Benutzerkonto gebunden und nur für dich lesbar ist. Geschützt sind sie durch Zugriffsregeln auf dem Server und nicht durch eine Verschlüsselung, die wir nicht aufheben könnten – technisch könnten wir sie also lesen. Wir tun es nicht und haben keinen Grund dazu. Wenn deine Daten das Gerät gar nicht erst verlassen sollen, schalte die Cloud-Synchronisierung unter <strong>Einstellungen → Cloud-Synchronisierung</strong> aus.</p>
 
-        <h3>Auf deinem Gerät (deine Finanzdaten)</h3>
-        <p>Momo Finances Tracker speichert alle deine Finanzdaten <strong>lokal auf deinem Gerät</strong>. Dazu gehören Transaktionen, Budgets, Konten, Kategorien, Etiketten, wiederkehrende Zahlungen, Ziele und alle eingegebenen Notizen.</p>
-        <p>Wir erheben, übertragen oder speichern keine dieser Daten auf externen Servern. Wir haben keinen Zugriff auf deine Finanzinformationen.</p>
+        <h3>Cloud-Synchronisierung</h3>
+        <p>Die Cloud-Synchronisierung hält deine Daten in deinem Konto, damit sie den Verlust oder Wechsel eines Telefons überstehen und auf deinen Geräten aktuell bleiben. Sie ist standardmäßig eingeschaltet und lässt sich jederzeit unter <strong>Einstellungen → Cloud-Synchronisierung</strong> ausschalten.</p>
+        <p><strong>Was beim Ausschalten passiert:</strong> Dieses Gerät sendet und empfängt sofort keine Änderungen mehr. Alles, was bereits auf dem Gerät ist, bleibt erhalten, und die App funktioniert wie zuvor. Was du bereits hochgeladen hast, bleibt in deinem Konto, deine anderen Geräte synchronisieren also weiter miteinander; beim Wiedereinschalten wird alles gesendet, was du zwischenzeitlich geändert hast.</p>
+        <p>Bitte beachte: Mit ausgeschalteter Synchronisierung hält dein Gerät die einzige Kopie. Momo Finances Tracker ist von der Systemsicherung deines Telefons ausgenommen – wenn du das Telefon verlierst, sind diese Daten nicht wiederherstellbar. Ein CSV-Export ist der Weg zu einer eigenen Kopie.</p>
+        <p><strong>Wiederherstellung:</strong> Melde dich auf einem neuen Gerät an, und deine Daten werden automatisch heruntergeladen. Du musst vorher nichts exportieren.</p>
 
-        <h3>Analyse &amp; Absturzberichte</h3>
+<h3>Analyse &amp; Absturzberichte</h3>
         <p>Momo Finances Tracker <strong>verwendet keine</strong> Analyse- oder Absturzbericht-Dienste von Drittanbietern. Wir erfassen keine Nutzungsstatistiken und verfolgen dich nicht über Apps oder Websites hinweg.</p>
 
         <h3>Abonnement-Verifizierung (RevenueCat)</h3>
@@ -95,9 +101,9 @@
             <li>Deinen Namen, deine E-Mail, Telefonnummer oder andere persönliche Identifikatoren</li>
             <li>Genaue Standortdaten</li>
             <li>Anmeldedaten von Finanzkonten, Bank-Logins oder Kartennummern</li>
-            <li>Den Inhalt deiner Transaktionen, Budgets, Konten, Kategorien, Ziele oder Notizen</li>
             <li>Kontaktlisten oder Fotos (außer du fügst einen Beleg hinzu — und auch dann bleibt das Bild auf deinem Gerät)</li>
         </ul>
+        <p>Wir verbinden uns nie mit deiner Bank. Alles in Momo Finances Tracker steht dort, weil du es eingegeben oder selbst importiert hast. Bei ausgeschalteter Cloud-Synchronisierung verlässt nichts von dem, was du erfasst, dein Gerät.</p>
 
         <h2>In-App-Käufe</h2>
         <p>Momo Finances Tracker Plus-Abonnements werden über den Apple App Store oder Google Play Store abgerechnet. Wir erhalten oder speichern deine Zahlungsdaten nicht.</p>
@@ -123,14 +129,15 @@
         <p>Keine persönlichen Finanzdaten von Momo Finances Tracker werden mit Dritten geteilt.</p>
 
         <h2>Wo deine Daten gespeichert werden</h2>
-        <p>Deine Finanzdaten liegen auf deinem Gerät und nirgendwo sonst — also dort, wo du und dein Gerät gerade sind. Wir erhalten sie nie und übertragen sie nirgendwohin.</p>
+        <p>Deine Finanzdaten liegen auf deinem Gerät. Bei eingeschalteter Cloud-Synchronisierung wird zusätzlich eine Kopie in deinem Konto gehalten, gehostet von <strong>Supabase</strong> auf Infrastruktur in der <strong>Europäischen Union (AWS eu-west-1, Irland)</strong>.</p>
         <p>Dein Konto — E-Mail-Adresse, ggf. ein gehashtes Passwort und Authentifizierungs-Metadaten — wird von <strong>Supabase</strong> auf Infrastruktur in der <strong>Europäischen Union (AWS eu-west-1, Irland)</strong> gehostet. Supabase ist ein US-Unternehmen und kann für Support und Betrieb auch von außerhalb der EU auf diese Daten zugreifen.</p>
         <p>Zwei weitere Auftragsverarbeiter sitzen in den USA und können Daten dort verarbeiten: <strong>Resend</strong> für Bestätigungs- und Passwort-Reset-E-Mails und <strong>RevenueCat</strong> für die Prüfung von Abonnements. Soweit personenbezogene Daten in die USA gelangen, ist die Übermittlung durch die Garantien in den Auftragsverarbeitungsbedingungen des jeweiligen Anbieters abgedeckt — die Standardvertragsklauseln der Europäischen Kommission sowie, sofern der Anbieter zertifiziert ist, das EU-US Data Privacy Framework.</p>
 
         <h2>Datenaufbewahrung</h2>
-        <p>Dein Konto — E-Mail-Adresse und Authentifizierungsdaten — wird aufbewahrt, bis du es löschst. Die Löschung erfolgt sofort und dauerhaft: Wir behalten keine Kopie, und es gibt keine Kulanzfrist, aus der ein Konto wiederhergestellt werden könnte.</p>
-        <p>Deine Finanzdaten werden lokal auf deinem Gerät gespeichert und so lange aufbewahrt, wie die App installiert ist. Beim Deinstallieren von Momo Finances Tracker werden alle lokal gespeicherten Daten endgültig gelöscht.</p>
-        <p>RevenueCat speichert abonnementbezogene Daten (anonyme Benutzer-IDs, Kaufverlauf) gemäß seiner eigenen Aufbewahrungsrichtlinie. Für Details siehe <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCats Datenschutzrichtlinie</a>.</p>
+                <p>Die Kopie auf deinem Gerät bleibt erhalten, solange die App installiert ist. Beim Deinstallieren von Momo Finances Tracker wird sie gelöscht.</p>
+        <p>Wenn du die Cloud-Synchronisierung genutzt hast, entfernt das Deinstallieren <strong>nicht</strong> die Kopie in deinem Konto – genau darum geht es bei einer Sicherung. Das Ausschalten der Synchronisierung stoppt zwar das Senden weiterer Änderungen, lässt aber ebenfalls das bereits Gespeicherte bestehen.</p>
+        <p>Um die Cloud-Kopie zu löschen, lösche dein Konto: <strong>Einstellungen → Konto löschen</strong>, oder über unsere <a href="/de/delete-account.html">Seite zur Kontolöschung</a>, wenn die App nicht mehr installiert ist. Damit werden dein Konto und alle damit gespeicherten Daten entfernt. Die Löschung erfolgt sofort und endgültig: Wir behalten keine Kopie, und es gibt keine Frist, innerhalb derer ein Konto wiederhergestellt werden könnte.</p>
+<p>RevenueCat speichert abonnementbezogene Daten (anonyme Benutzer-IDs, Kaufverlauf) gemäß seiner eigenen Aufbewahrungsrichtlinie. Für Details siehe <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCats Datenschutzrichtlinie</a>.</p>
 
         <h2>Deine Rechte (DSGVO / UK GDPR)</h2>
         <p>Deine Finanzdaten leben auf deinem Gerät, daher hast du jederzeit die volle Kontrolle. Du kannst:</p>
