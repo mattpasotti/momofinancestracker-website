@@ -67,7 +67,7 @@
 <main id="main" class="legal">
     <div class="container legal-wrap">
         <h1>Privacy Policy</h1>
-        <p class="updated">Last updated: 17 October 2026</p>
+        <p class="updated">Last updated: 22 October 2026</p>
 
         <p>Momo Finances Tracker is a personal finance app built around your privacy. Your financial records are stored on your device, and, if you leave cloud sync on, a copy is kept in your account so it survives a lost phone and reaches your other devices. You can turn cloud sync off at any time in <strong>Settings → Cloud sync</strong>.</p>
         <p>The app does not use any third-party analytics or crash-reporting services, and does not track you. We do not sell your data, share it with advertisers, or use it to build a profile of you.</p>
@@ -75,7 +75,7 @@
         <h2>Information We Collect</h2>
 
         <h3>Your account (email address)</h3>
-        <p>Using Momo Finances Tracker requires an account. To create and maintain it we process your <strong>email address</strong>, an internal user identifier, and the timestamps of sign-in events. If you sign in with Google or Apple, we receive the email address and identifier that provider returns. If you use Apple's <em>Hide My Email</em>, that is a private relay address rather than your real one.</p>
+        <p>Using Momo Finances Tracker requires an account. To create and maintain it we process your <strong>email address</strong>, an internal user identifier, and the timestamps of sign-in events. If you sign in with Google or Apple, we receive the email address and identifier that provider returns, and Google also returns your name. If you use Apple's <em>Hide My Email</em>, that is a private relay address rather than your real one.</p>
         <p>Passwords are stored only as a salted hash by our authentication provider; we never see or store your password. Authentication is provided by <strong>Supabase</strong>, and confirmation and password-reset emails are delivered by <strong>Resend</strong>. See the Third-Party Services section below.</p>
         <p>The legal basis for this processing is performance of the contract between you and us. Without an account the app cannot be provided. We use your address to sign you in and to send transactional email about your account. We do not send marketing email.</p>
         
@@ -96,21 +96,20 @@
         <p>Momo Finances Tracker does <strong>not</strong> use any third-party analytics or crash-reporting services. We do not collect usage statistics, and we do not track you across apps or websites.</p>
 
         <h3>Subscription verification (RevenueCat)</h3>
-        <p>Our subscription management provider, RevenueCat, may collect limited technical identifiers such as anonymous user IDs, device type, and operating system version solely for the purpose of managing subscriptions. See the Third-Party Services section below for details.</p>
+        <p>Our subscription management provider (RevenueCat) may collect limited technical identifiers such as your account's user identifier, device type, and operating system version solely for the purpose of managing subscriptions. See the Third-Party Services section below for details.</p>
 
         <h2>Information We Do Not Collect</h2>
         <p>We do not collect:</p>
-        <ul>
-            <li>Your name, phone number, date of birth, or any personal identifier beyond the email address used for your account</li>
-            <li>Precise location data</li>
-            <li>Financial account credentials, bank logins, or card numbers</li>
-            <li>Contact lists or photos</li>
-        </ul>
-        <p>We never connect to your bank. Everything in Momo Finances Tracker is there because you typed it in or imported it yourself. If cloud sync is switched off, nothing you enter leaves your device at all.</p>
+        <ul><li>Your phone number or date of birth</li><li>Location data</li><li>Usage analytics or behavioural data</li><li>Financial account credentials, bank logins, or card numbers</li><li>Contact lists or photos</li></ul>
+        <p>The identifiers we do hold are your email address, an internal user identifier, the model identifier of each device signed in to your account (such as Samsung SM-S942B, never the name you gave the phone), and the IP address your device connects from, which our hosting provider records in its server logs.</p>
+        <p>Momo Finances Tracker does not ask for your name. If you sign in with Google, Google shares your name with us as part of signing in, and it is stored with your account. Apple shares your name only if you choose to share it.</p>
+        <p>We never connect to your bank. Everything in Momo Finances Tracker is there because you typed it in or imported it yourself.</p>
+        <p>If cloud sync is switched off, nothing you enter leaves your device, apart from the merchant names sent for AI categories if you have turned them on.</p>
+        <p>Note: Our subscription management provider (RevenueCat) may collect limited technical identifiers such as your account's user identifier, device type, and operating system version solely for the purpose of managing subscriptions. See the Third-Party Services section below for details.</p>
 
         <h2>In-App Purchases</h2>
         <p>Momo Finances Tracker Plus subscriptions are billed through the Apple App Store or Google Play Store. We do not receive or store your payment details.</p>
-        <p>Subscription status and entitlements are managed via RevenueCat, a third-party subscription management platform. RevenueCat may process anonymous user IDs, purchase history, and basic device information (device type, OS version) to verify your subscription status. RevenueCat does not receive your financial data or any information you enter into Momo Finances Tracker.</p>
+        <p>Subscription status and entitlements are managed via RevenueCat, a third-party subscription management platform. RevenueCat may process your account's user identifier, purchase history, and basic device information (device type, OS version) to verify your subscription status. RevenueCat does not receive your financial data or any information you enter into Momo Finances Tracker.</p>
         <p>Subscription management (renewal, cancellation) is handled through your device's app store settings. Please refer to Apple's, Google's, and RevenueCat's privacy policies for details on how they handle your data.</p>
 
         <h2>Notifications</h2>
@@ -120,51 +119,45 @@
         <p>When you export data (CSV or PDF), the files are created locally on your device. You choose where to save or share them. We have no access to exported files.</p>
 
         <h2>Third-Party Services</h2>
-        <p>Momo Finances Tracker does not integrate with advertising networks or marketing trackers. The following third-party services are used, each for a specific, limited purpose:</p>
-        <ul>
-            <li><strong>Apple App Store / Google Play Store</strong>: for processing payments and managing app distribution. See <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</li>
-            <li><strong>Supabase</strong>: for account creation, sign-in and session management, and, when cloud sync is on, for storing your financial records. Supabase hosts the database in which your account and those records are held. See <a href="https://supabase.com/privacy" rel="noopener" target="_blank">Supabase's Privacy Policy</a>.</li>
-            <li><strong>Resend</strong>: for delivering transactional email such as address confirmation and password resets. Resend processes your email address and the contents of those messages. See <a href="https://resend.com/legal/privacy-policy" rel="noopener" target="_blank">Resend's Privacy Policy</a>.</li>
-            <li><strong>Google</strong> and <strong>Apple</strong>: only if you choose to sign in with them. They confirm your identity to us and return an email address and identifier. We do not receive your password, and we share no financial data with them. See <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Google's Privacy Policy</a> and <a href="https://www.apple.com/legal/privacy/" rel="noopener" target="_blank">Apple's Privacy Policy</a>.</li>
-            <li><strong>RevenueCat</strong>: for subscription management and entitlement verification. RevenueCat processes anonymous user IDs, purchase receipts, and basic device information. It does not have access to your financial data or any content you enter into Momo Finances Tracker. See <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat's Privacy Policy</a>.</li>
-            <li><strong>Frankfurter.app</strong>: for retrieving daily European Central Bank reference rates when you change your currency. The request contains only the source and target currency codes; no balances, transactions, or identifying information are transmitted. See <a href="https://frankfurter.dev" rel="noopener" target="_blank">frankfurter.dev</a>.</li>
-            <li><strong>Anthropic</strong>: only if you use Wallet payments (Momo Plus, iPhone) with “Suggest categories with AI” on. When Momo does not recognise the merchant of a captured payment, the merchant name and the names of your expense categories are sent through Momo's server to Anthropic's Claude to pick a category. The amount, card, account and date are not sent. Momo keeps none of it; Anthropic does not train its models on API data. See <a href="https://www.anthropic.com/legal/privacy" rel="noopener" target="_blank">Anthropic's Privacy Policy</a>.</li>
-        </ul>
+        <p>Momo Finances Tracker does not integrate with third-party analytics, advertising, or tracking services. The following third-party services are used, each for a specific, limited purpose:</p>
+        <ul><li><strong>Apple App Store / Google Play Store</strong>: for processing payments and managing app distribution. See Apple's Privacy Policy (<a href="https://apple.com/privacy" rel="noopener" target="_blank">apple.com/privacy</a>) and Google's Privacy Policy (<a href="https://policies.google.com/privacy" rel="noopener" target="_blank">policies.google.com/privacy</a>).</li><li><strong>Supabase</strong>: for account creation, sign-in and session management, and, when cloud sync is on, for storing your financial records. Supabase hosts the database in which your account and those records are held. See Supabase's Privacy Policy (<a href="https://supabase.com/privacy" rel="noopener" target="_blank">supabase.com/privacy</a>).</li><li><strong>Resend</strong>: for delivering transactional email such as address confirmation and password resets. Resend processes your email address and the contents of those messages. See Resend's Privacy Policy (<a href="https://resend.com/legal/privacy-policy" rel="noopener" target="_blank">resend.com/legal/privacy-policy</a>).</li><li><strong>Google and Apple</strong>: only if you choose to sign in with them. They confirm your identity to us and return an email address and identifier; Google also returns your name. We do not receive your password, and we share no financial data with them.</li><li><strong>RevenueCat</strong>: for subscription management and entitlement verification. RevenueCat processes your account's user identifier, purchase receipts, and basic device information. It does not have access to your financial data or any content you enter into Momo Finances Tracker. See RevenueCat's Privacy Policy (<a href="https://revenuecat.com/privacy" rel="noopener" target="_blank">revenuecat.com/privacy</a>).</li><li><strong>Frankfurter.app</strong>: for retrieving daily European Central Bank reference rates when you change your currency. The request contains only the source and target currency codes; no financial data is transmitted. See <a href="https://frankfurter.dev" rel="noopener" target="_blank">frankfurter.dev</a> for details.</li><li><strong>Anthropic</strong>: only if you use Wallet payments (Momo Plus, iPhone) and turn on AI categories. It is off until you agree to it. The legal basis is your consent, which you can withdraw at any time by turning AI categories off in Settings → Wallet payments. When Momo does not recognise the merchant of a captured payment, the merchant name as the payment terminal reported it, and the names of your expense categories, are sent through Momo's server to Anthropic's Claude to pick a category. The amount, card, account and date are not sent. Momo keeps none of it; Anthropic does not train its models on API data and keeps it only for a limited period. See Anthropic's Privacy Policy (<a href="https://anthropic.com/legal/privacy" rel="noopener" target="_blank">anthropic.com/legal/privacy</a>).</li></ul>
         <p>Apart from Supabase, which stores your records so that sync can work, and the merchant names described under Anthropic above, no personal financial data from Momo Finances Tracker is shared with any third party. None of these providers receives your data for their own purposes.</p>
 
         <h2>Where Your Data Is Stored</h2>
-        <p>Your financial records are stored on your device. With cloud sync on, a copy is also held in your account, hosted by <strong>Supabase</strong> on infrastructure in the <strong>European Union (AWS eu-west-1, Ireland)</strong>.</p>
-        <p>Your account (email address, a hashed password where applicable, and authentication metadata) is hosted by <strong>Supabase</strong> on infrastructure in the <strong>European Union (AWS eu-west-1, Ireland)</strong>. Supabase is a US company and may access that data from outside the EU for support and operations.</p>
+        <p>Your financial records are stored on your device. With cloud sync on, a copy is also held in your account, hosted by Supabase on infrastructure in the European Union (AWS eu-west-1, Ireland).</p>
+        <p>Your account itself (email address, a hashed password where applicable, and authentication metadata) is hosted in the same place. Supabase, which provides this hosting, may access data from outside the EU for support and operations.</p>
+        <p>Three further processors may process data in the United States: Resend, which delivers confirmation and password-reset email, RevenueCat, which verifies subscriptions, and Anthropic, which suggests a category for a Wallet payment Momo does not recognise, when that setting is on. Resend and RevenueCat receive none of your financial records; Anthropic receives only the merchant names described under Third-Party Services. Wherever personal data leaves the European Union, including access by Supabase from outside it, the transfer is covered by the European Commission's Standard Contractual Clauses, which each provider includes in its data processing terms.</p>
         <p>With cloud sync switched off, your records stay on your device and are not transferred anywhere.</p>
-        <p>Three further processors are based in the United States and may process data there: <strong>Resend</strong>, which delivers confirmation and password-reset email, <strong>RevenueCat</strong>, which verifies subscriptions, and <strong>Anthropic</strong>, which suggests a category for a Wallet payment Momo does not recognise, when that setting is on. Resend and RevenueCat receive none of your financial records; Anthropic receives only the merchant names described under Third-Party Services. Where personal data reaches the United States, the transfer is covered by the safeguards in each provider's data processing terms: the European Commission's Standard Contractual Clauses, and the EU-US Data Privacy Framework where the provider is certified under it.</p>
+
+        <h2>Who Can Access Your Data</h2>
+        <p>Your records are never looked at to run, improve or promote Momo Finances Tracker. Apart from Supabase, which hosts the servers, only the people who operate the app can reach them, and that access is protected with two-step verification.</p>
+        <p>We look at the data in your account in two cases only: when you ask us to, for example to investigate a problem you report or to answer a request for your data, and then only as far as your request needs; or when the law requires it, for example a binding order from a court or authority, or our legal duties after a security incident. Each time, we record who looked, what was looked at, why and when, and we keep that record.</p>
 
         <h2>Data Retention</h2>
         <p>The copy on your device is kept for as long as the app is installed. Uninstalling Momo Finances Tracker deletes it.</p>
-        <p>If you have used cloud sync, uninstalling does <strong>not</strong> remove the copy held in your account. That is the point of a backup, and it is what lets you restore on a new phone. Switching cloud sync off stops further changes being sent, but also leaves what is already stored.</p>
-        <p>To erase the cloud copy, delete your account: <strong>Settings → Delete account</strong>, or our <a href="/delete-account.html">account deletion page</a> if you no longer have the app installed. That removes your account and every record held with it. Deletion is immediate and permanent: we do not keep a copy, and there is no grace period from which an account can be restored.</p>
-        <p>RevenueCat retains subscription-related data (anonymous user IDs, purchase history) in accordance with their own data retention policy. For details, see <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat's Privacy Policy</a>.</p>
+        <p>If you have used cloud sync, uninstalling does not remove the copy held in your account. That is the point of a backup, and it is what lets you restore on a new phone. Switching cloud sync off stops further changes being sent, but also leaves what is already stored.</p>
+        <p>To erase the cloud copy, delete your account: Settings → Delete account, or <a href="/delete-account.html">momofinancestracker.com/delete-account.html</a> if you no longer have the app installed. That removes your account and every record held with it. Deletion is immediate and permanent: we do not keep a copy, and there is no grace period from which an account can be restored.</p>
+        <p>When you delete a single record, such as a transaction, its content is removed from the copy in your account as soon as the deletion syncs. Only an identifier and the time of deletion are kept, so that your other devices know to delete it too.</p>
+        <p>An account whose email address is never confirmed is deleted automatically after 7 days.</p>
+        <p>While you have an account, RevenueCat retains subscription-related data (your account's user identifier, purchase history) in accordance with their own data retention policy. When you delete your account, we also ask RevenueCat to delete its record of you. Apple and Google keep their own purchase records under their own policies. For details, see RevenueCat's Privacy Policy (<a href="https://revenuecat.com/privacy" rel="noopener" target="_blank">revenuecat.com/privacy</a>).</p>
 
         <h2>Your Rights (GDPR / UK GDPR)</h2>
         <p>You can see and take your data at any time. You can:</p>
-        <ul>
-            <li>View all your data directly in the app</li>
-            <li>Export your data via CSV or PDF at any time</li>
-            <li>Stop any further upload by switching off <strong>Settings → Cloud sync</strong></li>
-            <li>Delete your account and all data on the device from <strong>Settings → Delete account</strong>, or request deletion at any time via our <a href="/delete-account.html">account deletion page</a>, including if you no longer have the app installed</li>
-            <li>Remove any device from your account in <strong>Settings → Devices</strong>, which signs it out and stops it syncing</li>
-        </ul>
-        <p>For the limited anonymous data processed by RevenueCat, you have the rights provided by the GDPR (access, rectification, erasure, restriction of processing, data portability, and objection). Because the identifiers used are anonymous, we may need additional information from you to identify the relevant records. To exercise these rights or ask any question, please contact us.</p>
+        <ul><li>View all your data directly in the app</li><li>Export your data via CSV or PDF at any time</li><li>Stop any further upload by switching off Settings → Cloud sync</li><li>Delete your account and everything held with it from Settings → Delete account, or request deletion at <a href="/delete-account.html">momofinancestracker.com/delete-account.html</a>, including if you no longer have the app installed</li></ul>
+        <p>For the personal data we hold (your email address, authentication records, and, where cloud sync is on, your financial records) you have the rights provided by the GDPR: access, rectification, erasure, restriction of processing, data portability, and objection. CSV export covers portability in a machine-readable form; account deletion covers erasure. To exercise these rights or ask any question, please contact us.</p>
+        <p>You also have the right to lodge a complaint with a data protection authority: the Spanish Agencia Española de Protección de Datos (<a href="https://aepd.es" rel="noopener" target="_blank">aepd.es</a>), which supervises us, or the authority in the country where you live.</p>
 
         <h2>Children's Privacy</h2>
-        <p>Momo Finances Tracker is not directed at children under the age of 16. We do not knowingly collect any personal information from children.</p>
+        <p>Momo Finances Tracker is for adults. You must be at least 18 years old to create an account, and we do not knowingly collect personal information from anyone under 18. If you believe someone under 18 has created an account, please contact us.</p>
 
         <h2>Changes to This Policy</h2>
         <p>We may update this Privacy Policy from time to time. Changes will be reflected in the app and on our website, with the updated date shown at the top of this page. Continued use of Momo Finances Tracker after changes constitutes acceptance of the updated policy.</p>
 
         <div class="contact-card">
-            <h2>Contact Us</h2>
-            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-            <a class="email" href="mailto:support@momofinancestracker.com">support@momofinancestracker.com</a>
+            <h2>Data Controller and Contact</h2>
+            <p>Momo Finances Tracker is provided by Matteo Pasotti, who is the controller of your personal data under the GDPR:</p>
+            <p>Matteo Pasotti<br>Carrer del Pacific 57, 4-1<br>08027 Barcelona, Spain<br>Email: <a href="mailto:support@momofinancestracker.com">support@momofinancestracker.com</a></p>
+            <p>If you have any questions about this Privacy Policy, please write to either address.</p>
         </div>
     </div>
 </main>
