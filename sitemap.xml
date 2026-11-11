@@ -4,96 +4,96 @@
 
     <!-- Landing page -->
     <url>
-        <loc>https://momofinancestracker.com/</loc>
+        <loc>https://nuvolafinance.com/</loc>
         <lastmod>2026-05-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://momofinancestracker.com/" />
-        <xhtml:link rel="alternate" hreflang="de" href="https://momofinancestracker.com/de/" />
-        <xhtml:link rel="alternate" hreflang="es" href="https://momofinancestracker.com/es/" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://momofinancestracker.com/fr/" />
-        <xhtml:link rel="alternate" hreflang="it" href="https://momofinancestracker.com/it/" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://momofinancestracker.com/nl/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://momofinancestracker.com/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://nuvolafinance.com/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://nuvolafinance.com/de/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://nuvolafinance.com/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nuvolafinance.com/fr/" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://nuvolafinance.com/it/" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://nuvolafinance.com/nl/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://nuvolafinance.com/" />
     </url>
-    <url><loc>https://momofinancestracker.com/de/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://momofinancestracker.com/es/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://momofinancestracker.com/fr/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://momofinancestracker.com/it/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://momofinancestracker.com/nl/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://nuvolafinance.com/de/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://nuvolafinance.com/es/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://nuvolafinance.com/fr/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://nuvolafinance.com/it/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://nuvolafinance.com/nl/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 
     <!-- Privacy -->
     <url>
-        <loc>https://momofinancestracker.com/privacy.html</loc>
+        <loc>https://nuvolafinance.com/privacy.html</loc>
         <lastmod>2026-05-07</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://momofinancestracker.com/privacy.html" />
-        <xhtml:link rel="alternate" hreflang="de" href="https://momofinancestracker.com/de/privacy.html" />
-        <xhtml:link rel="alternate" hreflang="es" href="https://momofinancestracker.com/es/privacy.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://momofinancestracker.com/fr/privacy.html" />
-        <xhtml:link rel="alternate" hreflang="it" href="https://momofinancestracker.com/it/privacy.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://momofinancestracker.com/nl/privacy.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://momofinancestracker.com/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://nuvolafinance.com/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://nuvolafinance.com/de/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://nuvolafinance.com/es/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nuvolafinance.com/fr/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://nuvolafinance.com/it/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://nuvolafinance.com/nl/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://nuvolafinance.com/privacy.html" />
     </url>
-    <url><loc>https://momofinancestracker.com/de/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-    <url><loc>https://momofinancestracker.com/es/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-    <url><loc>https://momofinancestracker.com/fr/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-    <url><loc>https://momofinancestracker.com/it/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-    <url><loc>https://momofinancestracker.com/nl/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://nuvolafinance.com/de/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://nuvolafinance.com/es/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://nuvolafinance.com/fr/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://nuvolafinance.com/it/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://nuvolafinance.com/nl/privacy.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
 
     <!-- Terms -->
     <url>
-        <loc>https://momofinancestracker.com/terms.html</loc>
+        <loc>https://nuvolafinance.com/terms.html</loc>
         <lastmod>2026-05-07</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://momofinancestracker.com/terms.html" />
-        <xhtml:link rel="alternate" hreflang="de" href="https://momofinancestracker.com/de/terms.html" />
-        <xhtml:link rel="alternate" hreflang="es" href="https://momofinancestracker.com/es/terms.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://momofinancestracker.com/fr/terms.html" />
-        <xhtml:link rel="alternate" hreflang="it" href="https://momofinancestracker.com/it/terms.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://momofinancestracker.com/nl/terms.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://momofinancestracker.com/terms.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://nuvolafinance.com/terms.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://nuvolafinance.com/de/terms.html" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://nuvolafinance.com/es/terms.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nuvolafinance.com/fr/terms.html" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://nuvolafinance.com/it/terms.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://nuvolafinance.com/nl/terms.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://nuvolafinance.com/terms.html" />
     </url>
-    <url><loc>https://momofinancestracker.com/de/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
-    <url><loc>https://momofinancestracker.com/es/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
-    <url><loc>https://momofinancestracker.com/fr/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
-    <url><loc>https://momofinancestracker.com/it/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
-    <url><loc>https://momofinancestracker.com/nl/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+    <url><loc>https://nuvolafinance.com/de/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+    <url><loc>https://nuvolafinance.com/es/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+    <url><loc>https://nuvolafinance.com/fr/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+    <url><loc>https://nuvolafinance.com/it/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+    <url><loc>https://nuvolafinance.com/nl/terms.html</loc><lastmod>2026-05-07</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
 
     <!-- Support -->
     <url>
-        <loc>https://momofinancestracker.com/support.html</loc>
+        <loc>https://nuvolafinance.com/support.html</loc>
         <lastmod>2026-05-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://momofinancestracker.com/support.html" />
-        <xhtml:link rel="alternate" hreflang="de" href="https://momofinancestracker.com/de/support.html" />
-        <xhtml:link rel="alternate" hreflang="es" href="https://momofinancestracker.com/es/support.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://momofinancestracker.com/fr/support.html" />
-        <xhtml:link rel="alternate" hreflang="it" href="https://momofinancestracker.com/it/support.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://momofinancestracker.com/nl/support.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://momofinancestracker.com/support.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://nuvolafinance.com/support.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://nuvolafinance.com/de/support.html" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://nuvolafinance.com/es/support.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nuvolafinance.com/fr/support.html" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://nuvolafinance.com/it/support.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://nuvolafinance.com/nl/support.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://nuvolafinance.com/support.html" />
     </url>
 
     <!-- Account deletion (required by Google Play Data Safety) -->
     <url>
-        <loc>https://momofinancestracker.com/delete-account.html</loc>
+        <loc>https://nuvolafinance.com/delete-account.html</loc>
         <lastmod>2026-08-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://momofinancestracker.com/delete-account.html" />
-        <xhtml:link rel="alternate" hreflang="de" href="https://momofinancestracker.com/de/delete-account.html" />
-        <xhtml:link rel="alternate" hreflang="es" href="https://momofinancestracker.com/es/delete-account.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://momofinancestracker.com/fr/delete-account.html" />
-        <xhtml:link rel="alternate" hreflang="it" href="https://momofinancestracker.com/it/delete-account.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://momofinancestracker.com/nl/delete-account.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://momofinancestracker.com/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://nuvolafinance.com/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://nuvolafinance.com/de/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://nuvolafinance.com/es/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nuvolafinance.com/fr/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://nuvolafinance.com/it/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://nuvolafinance.com/nl/delete-account.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://nuvolafinance.com/delete-account.html" />
     </url>
-    <url><loc>https://momofinancestracker.com/de/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-    <url><loc>https://momofinancestracker.com/es/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-    <url><loc>https://momofinancestracker.com/fr/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-    <url><loc>https://momofinancestracker.com/it/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-    <url><loc>https://momofinancestracker.com/nl/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://nuvolafinance.com/de/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://nuvolafinance.com/es/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://nuvolafinance.com/fr/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://nuvolafinance.com/it/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://nuvolafinance.com/nl/support.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
